@@ -28,6 +28,8 @@ security-onion-soc-lab/
 │
 ├── Group7_FinalReport.pdf
 │
+├── LICENSE
+│
 └── README.md
 
 ```
