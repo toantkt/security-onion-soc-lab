@@ -31,7 +31,6 @@ security-onion-soc-lab/
 ├── LICENSE
 │
 └── README.md
-
 ```
 
 ## Network Topology
@@ -100,7 +99,7 @@ Capabilities demonstrated:
 
 ---
 
-### Threat Hunting
+### Threat Hunting Workflow
 
 Performed hypothesis-driven investigations by pivoting from alerts to related network activities.
 
@@ -139,7 +138,7 @@ Simulate an external attacker performing reconnaissance followed by repeated SSH
 
 Attack chain:
 
-```
+```text
 Reconnaissance
       ↓
 Port Scanning
@@ -156,7 +155,7 @@ PCAP Analysis
 Environment:
 
 | Component | Role |
-|----------|------|
+| --------- | ---- |
 | Kali Linux | Attacker |
 | Ubuntu Server | SSH Target |
 | Security Onion | Detection, Monitoring, Investigation |
@@ -187,7 +186,7 @@ Simulate common web application attacks against DVWA to evaluate Security Onion'
 
 Attack chain:
 
-```
+```text
 Reconnaissance
       ↓
 Vulnerability Detection
@@ -204,7 +203,7 @@ PCAP Analysis
 Environment:
 
 | Component | Role |
-|----------|------|
+| --------- | ---- |
 | Kali Linux | Attacker |
 | Ubuntu Server (DVWA) | Vulnerable Web Application |
 | Security Onion | Detection & Monitoring |
